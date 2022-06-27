@@ -1,0 +1,34 @@
+.interactive-image-wrapper {
+    clear: both;
+    display: table;
+    margin: 0.9em auto;
+    min-width: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.interactive-image-wrapper .interactive-button-wrapper {
+    overflow: hidden;
+    box-shadow: 1px 1px 3px hsla(0, 0%, 0%, .3);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    float: left;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.interactive-image-wrapper img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.interactive-image-wrapper .interactive-button-wrapper .interactive-image-button {
+    background-color: blue;
+}
